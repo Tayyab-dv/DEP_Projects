@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelCo - Your Gateway to Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TravelCo</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Explore the World with TravelCo</h1>
+            <p>Your adventure starts here. Book your next trip with us today.</p>
+            <a href="#services" class="btn">Our Services</a>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-item">
+                <img src="images/s-o-c-i-a-l-c-u-t-96A9UTFAMUM-unsplash.jpg" alt="Flight Booking">
+                <h3>Flight Booking</h3>
+                <p>Book flights to your dream destinations with ease.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg" alt="Hotel Reservations">
+                <h3>Hotel Reservations</h3>
+                <p>Find and book the best hotels worldwide.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/quan-nguyen-yDSe7sggb9Q-unsplash.jpg" alt="Tour Packages">
+                <h3>Tour Packages</h3>
+                <p>Choose from a wide range of guided tours and packages.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <img src="images/person1.jpg" alt="Client 1">
+            <p>"TravelCo made our honeymoon unforgettable! Highly recommend."</p>
+            <span>- John</span>
+        </div>
+        <div class="testimonial">
+            <img src="images/person2.jpg" alt="Client 2">
+            <p>"Best travel agency we've ever used. Everything was perfect."</p>
+            <span>- Emily R.</span>
+        </div>
+    </section>
+
+
+
+    <footer id="contact">
+        <div class="footer-content">
+            <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <small class="error-message"></small>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+            <p>&copy; 2024 TravelCo. All Rights Reserved.</p>
+            <p>Contact: info@travelco.com</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
